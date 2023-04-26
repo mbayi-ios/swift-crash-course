@@ -44,4 +44,6 @@ message
 
 //let message = CONDITION ? VALUE IF CONDITION IS MET : VALUE IF CONDITION IS NOT MET
 
-let newMessage = age >= 18 ? "You are an adult" : "You are not yet an adult"
+let newMessage = age >= 18
+    ? "You are an adult"
+    : "You are not yet an adult"
